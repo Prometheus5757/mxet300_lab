@@ -1,2 +1,6 @@
 # mxet300_lab
-Repository for MXET 300 - Mechatronics I Lab
+
+Fall 2025, Section 502, Team 05
+
+Team members:
+Harsheet Kumm, Lucas Ngo
