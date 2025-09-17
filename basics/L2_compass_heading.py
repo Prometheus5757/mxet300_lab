@@ -21,7 +21,7 @@ declination_angle = 7
 # in the "Calibrate the Magnetometer" Section of the "Magnetometer_Compass_Calibration.ipynb" jupyter notebook.
 # You can copy the matrix out right from the print statement and paste it into the "mag_calibration" list below.
 # Place holders of 0.00 have been used for the x,y,z values.
-mag_calibration = [[0.00, 0.00], [0.00, 0.00], [0.00, 0.00]]
+mag_calibration = [[-17.25, 55.5], [-61.5625, 6.6875], [113.1875, 175.9375]]
 
 x_min = mag_calibration[0][0]
 x_max = mag_calibration[0][1]
