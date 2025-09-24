@@ -11,5 +11,4 @@ if __name__ == "__main__":
     while True:
         sleep(1)                
         batt_voltage = getVoltage()
-        #volt_str = "Robot Voltage: %.2fV" % batt_voltage
         fileLog.tmpFile(batt_voltage, "Batt_Log.txt")
