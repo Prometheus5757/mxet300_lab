@@ -20,8 +20,8 @@ if __name__ == "__main__":
             lidar_vals = lidarsensor.get() #[distance, angle]
             vector_vals = vec.getNearest(lidar_vals)
             vec_components = vec.polar2cart(*vector_vals) #[x,y] in cartesian
-            log.tmpFile(lidar_vals[-1][0],"distance.txt")
-            log.tmpFile(lidar_vals[-1][1],"angle.txt")
+            log.tmpFile(vector_vals[0],"distance.txt")
+            log.tmpFile(vector_vals[1],"angle.txt")
             
             log.tmpFile(vec_components[0],"x_comp.txt")
             log.tmpFile(vec_components[1],"y_comp.txt")
